@@ -18,7 +18,8 @@ from matplotlib.colors import colorConverter
 import Tkinter as Tk
 import sys
 
-def destroy(e): sys.exit()
+# PREGUNTAR PREGUNTAR PREGUNTAR PREGUNTAR
+#def destroy(e): sys.exit()
 
 import sys
 import pyfits
@@ -31,3 +32,17 @@ import numpy as np
 from mpl_toolkits.mplot3d  import Axes3D
 import math, copy
 from matplotlib import pyplot, colors, cm
+
+#   We define a function that reads the respective figure
+
+def loadFig(filename):
+
+#   We define a function that recieves the pixels that we are interested in,
+#   in order to extract that particular pixel's spectrum
+
+def pixelSelect(pixX, pixY):
+
+#   We define a function that saves the spectrum obtained by the function
+#   defined above
+
+def saveImg():
