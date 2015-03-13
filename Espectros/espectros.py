@@ -35,14 +35,17 @@ from matplotlib import pyplot, colors, cm
 
 #   We define a function that reads the respective figure
 
-def loadFig(filename):
+#def loadFig(filename):
 
 #   We define a function that recieves the pixels that we are interested in,
 #   in order to extract that particular pixel's spectrum
 
-def pixelSelect(pixX, pixY):
+#def pixelSelect(pixX, pixY):
 
 #   We define a function that saves the spectrum obtained by the function
 #   defined above
 
-def saveImg():
+#def saveImg():
+
+
+pyfits.info("NGC0180.V1200.rscube.fits")
